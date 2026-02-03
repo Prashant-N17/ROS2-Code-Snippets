@@ -11,6 +11,11 @@ set(dependencies
 add_executable(simple src/simple.cpp)
 ament_target_dependencies(simple ${dependencies})
 
+//add the executables and ament_target_dependencies as per the programs 
+//you want to build
+
+//add install instructions with all the executibles.
+
 install(TARGETS
   simple
   ARCHIVE DESTINATION lib
